@@ -1,0 +1,14 @@
+{
+  "name": "workshop",
+  "version": "1.0.0",
+  "description": "a test bot i made in a workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Taylor",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.4.0"
+  }
+}
