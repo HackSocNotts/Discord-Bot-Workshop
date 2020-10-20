@@ -11,6 +11,10 @@ client.on('message', msg => {
       return;
   }
 
+  if(msg.mentions.users.array().includes(client.user)){
+      msg.channel.send("Thanks for the ping!");
+      return;
+  }
   if(msg.content.startsWith("!")){
       if(msg.content.startsWith("!date")){
         var d = new Date();
